@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+mcp
+aiosqlite
+pydantic
+pydantic-settings
+python-multipart
+sse_starlette
