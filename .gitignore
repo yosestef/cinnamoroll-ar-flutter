@@ -1,0 +1,22 @@
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+*.iml
+.idea/
+
+# Backend Python
+__pycache__/
+*.pyc
+.venv/
+backend/.env
+
+# Android
+*.apk
+*.aab
+android/.gradle/
+
+# Misc
+.DS_Store
+*.log
