@@ -24,4 +24,4 @@ app.include_router(health.router)
 app.include_router(assets.router)
 
 # Mount FastMCP SSE Server
-mcp_server.add_to_fastapi(app, sse_path="/mcp/sse", messages_path="/mcp/messages")
+app.mount("/mcp", mcp_server.sse_app)

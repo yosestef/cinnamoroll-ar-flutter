@@ -41,6 +41,7 @@ dependencies:
   dio: ^5.9.2
   path_provider: ^2.1.5
   logger: ^2.7.0
+  vector_math: ^2.2.0
 
 dev_dependencies:
   flutter_test:
